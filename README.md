@@ -102,10 +102,39 @@ Debe contener lo siguiente:
 - La imagen final de tu proyecto.
 - Investigación UX:
   - Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+  1.- Free yourself es una plataforma donde el usuario puede confesar sus más profundos secretos. El usuario tiene la opción de cifrar sus confesiones,las cuales se guardan después de haber sido cifradas, utilizando una clave que él mismo  proporcionó. Cada vez que el usuario ingresa a la plataforma será capaz de visualizar cada uno de sus confesiones cifradas. Y tendrá la opción de descifrarlas cuando desee.
+
+El público objetivo de Free yourself son  hombres y mujeres de 18-40 años,que desean liberar sus cargas emocionales y desahogarse,escribiendo y expresando lo que sienten en Free Yourself.
+Free Yourself busca ser una herramienta de liberación,que brinde al usuario una sensación de liberación después de haber escrito su confesión.
+El objetivo principal de Free Yourself es promover el bienestar, la salud mental y la paz interior de las personas.
+
   - Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-  - Luego colocarás la foto de tu primer prototipo en papel.
-  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  - Imagen del prototipo final en Balsamiq.
+  
+  Todos las personas tenemos secretos, la mayoría están relacionados con situaciones que son mal vistas, ética o socialmente. Estos  secretos afectan a las personas emocional y mentalmente,lo que a su vez influye en su forma de actuar,y en general, en su bienestar.
+ 
+Por ello se creó Free yourself, una plataforma donde el usuario puede crear una cuenta personal, confesar sus secretos , cifrarlos por seguridad  y descifrarlos cuando desee.
+
+- Luego colocarás la foto de tu primer prototipo en papel.
+  
+  
+ - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+ 
+ Que en el input donde la persona donde va ingresar su confesion aparezca el cursor para que el usuario sepa que puede escribir.
+ Colocar una definición donde se explique que signifique cifrar y descifrar.
+El usuario no puede diferenciar qué acción va realizar primero: Ingresar su clave secreta o hacer click en el botón cifrar.
+Sugerencia:Colocar una descripción o instrucción de cómo se utiliza  la plataforma.
+
+Instruccion :
+¿Cómo usarlo?
+*Escribe tu secreto
+*Crea una clave
+*Luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado)
+*Si deseas descifrar tu secreto. Ingresa la clave que usaste y listo)
+
+- Imagen del prototipo final en Balsamiq.
+  
+  
+  
 
 ### Front-end
 
