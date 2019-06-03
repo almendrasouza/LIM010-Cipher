@@ -114,7 +114,11 @@ El objetivo principal de Free Yourself es promover el bienestar, la salud mental
  
 Por ello se creó Free yourself, una plataforma donde el usuario puede crear una cuenta personal, confesar sus secretos , cifrarlos por seguridad  y descifrarlos cuando desee.
 
+
 - Luego colocarás la foto de tu primer prototipo en papel.
+
+-Diagrama de Flujo
+[Diagrama de Flujo]().
   
   
  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
