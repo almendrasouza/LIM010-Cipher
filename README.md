@@ -118,7 +118,7 @@ Por ello se creó Free yourself, una plataforma donde el usuario puede crear una
 - Luego colocarás la foto de tu primer prototipo en papel.
 
 -Diagrama de Flujo
-[Diagrama de Flujo]().
+[Diagrama de Flujo](WhatsApp Image 2019-06-02 at 11.53.59 PM.jpeg).
   
   
  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
