@@ -137,7 +137,7 @@ Instruccion :
 *Si deseas descifrar tu secreto. Ingresa la clave que usaste y listo)
 
 - Imagen del prototipo final en Balsamiq.
-  ![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/prototipo-balsamiq.png).
+  ![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipo-balsamiq.png).
   
   
 
