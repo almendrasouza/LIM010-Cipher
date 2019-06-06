@@ -8,69 +8,77 @@
 </head>
 
 <body>
-  <div id=first-screen>
+
+  <div id="first-screen">
     <header>
       <h1 id="title-first-screen">Free Yourself</h1>
     </header>
     <main>
       <p>Un lugar donde puedes liberarte de tus más profundos secretos</p>
     </main>
-    <button id="login-button">Iniciar sesión </button><br>
-    <button id="sign-up-button">Registrate</button><br>
+    <button id="login-button">Iniciar sesión</button>
+    <button id="sign-up-button">Registrate</button>
 
   </div>
 
 
   <div id="login-screen">
-    <form >
+    
       <h2>Inicia sesión en Free Yourself</h2><br>
-      <input type="text" id="login" placeholder="Usuario"><br>
-      <input type="password" id="password1"  placeholder="Contraseña"><br>
-      <button id=button-login>Sign in</button>
-      <h4>¿Nuevo en Free Yourself?  <a href="">Regístrate</a></h4>
-    </form>
+      <input type="text" id="username" placeholder="Usuario"><br>
+      <input type="password" id="password-sign-in" placeholder="Contraseña"><br>
+      <button id="btn-login">Sign in</button>
+      <h4>¿Nuevo en Free Yourself? <a href="#/Registrate">Regístrate</a></h4>
+     
+   
 
   </div>
 
-<div>
-    <form id="firstscreensignup">
 
-        <h2>Regístrate en Free Yourself</h2><br>
-        <h3>Tu nombre : </h3><br>
-        <input type="text" id="signup" placeholder="Ingresa tu nombre"><br>
-        <h3>Tu contraseña :</h3><br>
-        <input type="text" id="password2" placeholder="Ingresa tu contraseña"><br>
-        <button id=buttonsignup>Sign up</button>
-        <h4>o Registrate con face or Google</h4>
-      </form>
-
-</div>
-
- 
-
-  <section id=secondscreen>
-    <h1>Confiesa tu secreto, libérate</h1>
-    <p>¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar
-      tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
-    <input type="text" id="secreto" placeholder="Te escucho"><br>
-    <button id="buttonclavesecreta">Ingresa tu clave secreta</button>
-    <button id="buttoncifrar">Cifrar secreto</button>
-
-
-    <button id="buttonclavesecreta1">Ingresa tu clave secreta</button>
-    <button id="buttondescifrar">Descifrar secreto</button>
+  <div id="sign-up-screen">
+      <h2>Regístrate en Free Yourself</h2><br>
+      <h3>Tu nombre : </h3><br>
+      <input type="text" id="name" placeholder="Ingresa tu nombre"><br>
+      <h3>Tu contraseña :</h3><br>
+      <input type="password" id="password-sign-up" placeholder="Ingresa tu contraseña"><br>
+      <button id="btn-sign-up">Sign up</button>
+      <a><img class="icons" id="facebook-icon" src="../img/facebook.png"></a>
+      <a><img class="icons" id="google-icon" src="../img/google-plus.png"></a>
+  </div>
 
 
 
+  <div id="confession-screen">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Free Yourself</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Almendra Zhou</a></li>
+            <li><a href="">Acerca de Free Yourself</a></li>
+            <li><a href="">Cerrar Sesión</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <h1>Confiesa tu secreto, libérate</h1>
+      <p>¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar
+        tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
+      <input type="text" id="secret" placeholder="Te escucho"><br>
+      <input type="number" placeholder="Ingresa una clave">
+      <button id="encode-btn">Cifrar</button>
+      <button id="decode-btn">Descifrar </button>
+      <footer>
+        <p> Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
+          personas |&copy; Copyright 2019 Almendra Souza </p>
+      </footer>
+    </section>
+  </div>
 
 
-  </section>
-
-
-  <footer>
-    <p> Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
-      personas | Copyright 2019 Almendra Souza </p>
-  </footer>
 
 
   <script src="cipher.js"></script>
