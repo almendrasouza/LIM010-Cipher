@@ -6,3 +6,13 @@ window.cipher = {
     /* Acá va tu código que descifra*/
   }
 };
+ const encode=(offset,string)=> { 
+   for(i=0;i<te     ; )
+ }
+
+
+ const encode=(offset,string) =>{  
+for(i=0;i<   ;   )
+
+
+ }
