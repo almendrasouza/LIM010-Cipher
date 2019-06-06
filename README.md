@@ -118,7 +118,8 @@ Por ello se creó Free yourself, una plataforma donde el usuario puede crear una
 - Luego colocarás la foto de tu primer prototipo en papel.
 
 -Diagrama de Flujo
-[Diagrama de Flujo](WhatsApp Image 2019-06-02 at 11.53.59 PM.jpeg).
+
+![Diagrama de Flujo](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/diagrama-de-flujo.jpeg)
   
   
  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
@@ -136,7 +137,7 @@ Instruccion :
 *Si deseas descifrar tu secreto. Ingresa la clave que usaste y listo)
 
 - Imagen del prototipo final en Balsamiq.
-  
+  ![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipo-balsamiq.png).
   
   
 
