@@ -1,40 +1,22 @@
-
 window.cipher = {
-  encode: (offset, string) => {
-    /* Acá va tu código que cifra*/
+  encode: (word, offset) => {
+    let newNumberAscii; //
+    let newWord = "";
+    for (let i = 0; i < word.length; i++) {
+      word[i];
+      const letter = word[i];
+      const newPositionRealLetter = (((letter.charCodeAt()) - 65) + offset) % 26;
+      if (newPositionRealLetter < 0) {
+        newNumberAscii = newPositionRealLetter + 26 + 65;
+      } else {
+        newNumberAscii = newPositionRealLetter + 65;
+      }
+      const newLetter = String.fromCharCode(newNumberAscii);
+      newWord += newLetter;
+    }
+    return newWord
   },
   decode: (offset, string) => {
     /* Acá va tu código que descifra*/
   }
 };
- 
-//aprendiendo a cifrar una letra
-const encodeLetter=(letter,offset)=>{
- const numeroAscii= letter.charCodeAt() ; //retornar a un numero ascii   
- const nuevoNumeroAscii = numeroAscii + offset ; //retornar  el nuevo numero Ascii
- const newLetter= String.fromCharCode(nuevoNumeroAscii);
-// console.log(newLetter);
- return newLetter;
-};
-
-
-encodeLetter("A",1);
-
-const encodeWord=(word,offset)=>{
- let newWord="";
-for(i=0;i<word.lenght;i++){
-  const letter= word[i] // H
- 
-  const numeroAscii= letter.charCodeAt() ; //retornar a un numero ascii   
-  const nuevoNumeroAscii = numeroAscii + offset ; //retornar  el nuevo numero Ascii
-  const newLetter= String.fromCharCode(nuevoNumeroAscii);
- // console.log(newLetter); // I 
-newWord+=newLetter; // newWord= newWord + newLetter
-}
-
-
-  return newWord;
- };
- encodeWord("HOLA",1);
-const arr= [0,1,2];
-arr [1];

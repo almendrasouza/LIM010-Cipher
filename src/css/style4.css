@@ -44,11 +44,11 @@ body {
   }
   .box2 {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 90px;
+    width: 700px;
+    padding: 70px;
     background: rgba(0, 0, 0, .8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
@@ -76,6 +76,7 @@ body {
 .box2 .secretbox {
     position: relative;
     
+    
   }
   
   .box .secretbox input{
@@ -89,34 +90,55 @@ body {
     border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
+    
+    
   }
   
   .box2 .secretbox label {
     position: absolute;
     top: 0;
-    left: 0;
-    padding: 10px 0;
+    left: 6;
+    padding: 15px 0;
     font-size: 16px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
+    
+    
   }
   
 .box2 .secretbox input:focus~label,
   .box2 .secretbox input:valid~label {
-    top: -20px;
+    top: -18px;
     left: 0;
-    color: #6b6b83;
-    font-size: 20px;
+    color: #b24bd1;
+    font-size: 16px;
+    
+  
+  }
+
+  .box2 .secretbox input[type="text"]{
+    width:555px;height:100px;
+   
+    
+  }
+  .box2 .secretbox input[type="number"]{
+    width:40px;height:20px;
+    margin-left:250px;	
+    margin-top: 4%;
+  
   }
    
-  .box2 button[type="text"] {
+   
+  /*.box2 button[type="text"] {
     background: transparent;
     border: none;
     outline: none;
     color: #fff;
     background: #6b6b83;
-    padding: 10px 20px;
+    padding: 13px 40px;
     cursor: pointer;
-    border-radius: 5px;
-  }
+    border-radius: 8px;
+    margin-left: 9%;
+    margin-top: 5%;
+}*/

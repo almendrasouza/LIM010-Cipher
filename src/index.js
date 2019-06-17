@@ -1,6 +1,6 @@
-const signInButton = document.getElementById("btn-login");
+const signInButton = document.getElementById("btn-login1");
 let contador = 0;
-signInButton.addEventListener('click', () => {
+signInButton.addEventListener('click',() =>{
   contador++
   const userName = document.getElementById("username");
   const passwordSignIn = document.getElementById("password-sign-in");
@@ -11,12 +11,7 @@ signInButton.addEventListener('click', () => {
   document.getElementById("password-sign-in").value = '';
   console.log(passwordValue);
   if (passwordValue === "LABORATORIA") {
-    const anchor =document.createElement('a');
-   signInButton.appendChild(anchor);
-   anchor.setAttribute('href','message.html');
-   anchor.addEventListener('click',()=>{
-
-   })
+  //..................//
    
   } else { // si no es igual a LABORATORIA
     if (contador === 1 || contador === 2) {
@@ -32,22 +27,16 @@ signInButton.addEventListener('click', () => {
 
 });
 
-/*
-const encodeletter=(letter,offset)=>{
-
-  const numberascii= letter.charCodeAt();
-  // numberascii + offset = newascii;
-  const newascii = numberascii + offset;
-    const newletter = String.fromCharCode(newascii);
-  
-    
-return newletter;
-};
-
-
-encodeletter('A',5);//F
-console.log(encodeletter('A',5));*/
-
+const secretTextUser=document.getElementById("secret-text");
+const offsetUser=document.getElementById("offset-user");
+const encodeBtn=document.getElementById("encode-btn");
+const  encodedTextResultDiv=document.getElementById("encode-text-result");
+encodeBtn.addEventListener('click',()=>{
+const secretValue=secretTextUser.value;
+const offsetValue=offsetUser.value;
+const newText=cipher.encode(secretValue,offsetValue);
+encodedTextResultDiv.innerHTML=newText
+})
 
 
 

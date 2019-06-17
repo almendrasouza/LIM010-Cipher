@@ -29,23 +29,22 @@
     <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
       <form>
     <div class="secretbox">
-    <input type="text" id="secret" name="" required="">
-    <label>Secret to encrypt or decipher </label>
+    <input type="text" id="secret-text">
     </div>
     <div class="secretbox">
-      <input type="number" id="secretcipher" name="" required="">
-      <label>Clave</label>
+      <input type="number"  id="offset-user"placeholder="Clave">      
     </div>
-    <button  type="text" id="encode-btn">Cifrar</button>
-    <button type="text" id="decode-btn">Descifrar </button>
-    <button type="text" id="save-btn">Save</button>
+    <button  type="button" id="encode-btn">Cifrar</button>
+    <button type="button" id="decode-btn">Descifrar </button>
+    <button type="button" id="save-btn">Save</button>
   </form>
+  <div id="encoded-text-result"></div>
 
   </main>
 
 
   <footer>
-    <p> Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
+    <p > Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
       personas |&copy; Copyright 2019 Almendra Souza </p>
 
   </footer>
