@@ -1,22 +1,36 @@
 window.cipher = {
   encode: (word, offset) => {
-    let newNumberAscii; //
-    let newWord = "";
-    for (let i = 0; i < word.length; i++) {
-      word[i];
-      const letter = word[i];
-      const newPositionRealLetter = (((letter.charCodeAt()) - 65) + offset) % 26;
-      if (newPositionRealLetter < 0) {
-        newNumberAscii = newPositionRealLetter + 26 + 65;
-      } else {
-        newNumberAscii = newPositionRealLetter + 65;
-      }
-      const newLetter = String.fromCharCode(newNumberAscii);
-      newWord += newLetter;
+    let newNumberAscii;//
+        let newWord="";
+    for(let i=0;i<word.length;i++){
+    word[i];
+    const letter=word[i];
+    const newPositionRealLetterTwo=(((letter.charCodeAt())- 65)+ offset)%26;
+    if(newPositionRealLetterTwo<0){
+     newNumberAscii=newPositionRealLetterTwo+26+65;
+    }else{    
+    newNumberAscii=newPositionRealLetterTwo +65;
     }
-    return newWord
+    const newLetter= String.fromCharCode(newNumberAscii);
+    newWord+= newLetter;
+}    
+    return newWord;
   },
-  decode: (offset, string) => {
-    /* Acá va tu código que descifra*/
+  decode: (word,offset) => {
+    let newNumberAscii;//
+    let newWord="";
+for(let i=0;i<word.length;i++){
+word[i];
+const letter=word[i];
+const newPositionRealLetterTwo=(((letter.charCodeAt())- 65)-offset)%26;
+if(newPositionRealLetterTwo<0){
+ newNumberAscii=newPositionRealLetterTwo+26+65;
+}else{    
+newNumberAscii=newPositionRealLetterTwo +65;
+}
+const newLetter= String.fromCharCode(newNumberAscii);
+newWord+= newLetter;
+}    
+return newWord;
   }
 };

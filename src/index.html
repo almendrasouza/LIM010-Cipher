@@ -4,42 +4,89 @@
 <head>
   <meta charset="UTF-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
 <body>
-  <header>
-    <nav class="main">
-      <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Watch video</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">About us</a></li>
-        </ul>
-    </nav>
-  </header>
-
-
-</div>
+    <header >
+        <nav class="main">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Watch video</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </nav>
+      </header>
   <div id="first-screen">
-    <h1 class="title">Free Yourself</h1>
-    <main>
-      <p class="p">Un lugar donde puedes liberarte de tus más profundos secretos</p>
-    </main >
-</div>
-
-
-<div class="btn">
-    <button type="buttonlogin" id="login-button"><a href="login.html">Login</a></button><label>
-    <button  type="buttonregister" id="sign-up-button"><a href="register.html">Register</a></button></label>
-
+    <div class="body1">
+        <h1 class="title">Free Yourself</h1>
+        <main>
+          <h1>Un lugar donde puedes liberarte de tus más profundos secretos</h1>
+          <button type="button" id="login-button">LogIn</button>
+          <button type="button" id="sign-up-button">Register</button>
+        </main>
+    </div>
+   
   </div>
+
+
+  <div id="login-screen">
+    <main class="box">
+      <h1>Login in Free Yourself<h1>
+          <form>
+            <div class="inputbox">
+              <label for="username">Username</label>
+              <input type="text" id="username">
+            </div>
+            <div class="inputbox">
+              <label for="password-sign-in">Password</label>
+              <input type="password" id="password">
+            </div>
+            <button type="button"  id="btn-login">Start</button>
+            <h2 class="linea"> New?<a href="">Sign up</a></h2>
+          </form>
+    </main>
+  </div> 
+
+  <div id="sign-up-screen">
+    <main class="box1">
+      <h1>Register en Free Yourself</h1>
+         <div class="buzon" id="sign-up-screen">
+          <label for="name">Username</label>
+          <input type="text" id="username2">
+        </div>
+        <div class="buzon">
+          <label for="password-sign-up"></label>Crea una contraseña</label>
+          <input type="password" id="password2">
+        </div>
+        <button type="button" id="btn-sign-up">Register</button>
+         </main>
+  </div>
+
+  <div id="message-screen">
+      <main class="box2">
+          <h1>FREE Yourself</h1>
+          <h2>Confiesa tu secreto, libérate</h2>
+          <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
+         <div class="secretbox">
+          <input type="text" id="secret-text">
+          </div>
+          <div class="secretbox">
+            <input type="number"  id="offset" placeholder="Clave">      
+          </div>
+          <button  type="button" id="encode-btn">Cifrar</button>
+          <button type="button" id="decode-btn">Descifrar </button>
+          <button type="button" id="save-btn">Save</button>
+         <div id="encoded-text-result"></div>
+      
+      </main>
+      
+</div>
   <footer>
-      <p> Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
-          personas |&copy; Copyright 2019 Almendra Souza </p>
+    <p>Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las personas |© Copyright 2019 Almendra Souza</p>
   </footer>
-
-
+  
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
