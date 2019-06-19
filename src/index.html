@@ -4,96 +4,100 @@
 <head>
   <meta charset="UTF-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/jpg" href="../img/logo.png" />
+
 </head>
 
 <body>
-    <header >
-        <nav class="main">
-          <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Watch video</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About us</a></li>
-          </ul>
-        </nav>
-      </header>
-  <div  id="first-screen">
-    <div >
-        <h1 class="title1">FREE</h1>
-        <h2 class="title2">yourself</h2>
-        <main>
-          <p class="phrase">Un lugar donde puedes liberarte de tus más profundos secretos</p>
-          <div class="button">
-          <button  class="btn"  id="login-button">Login</button>
+  <header>
+    <nav class="main">
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Watch video</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="first-screen">
+    <div>
+      <h1 class="title1">FREE</h1>
+      <h2 class="title2">yourself</h2>
+      <main>
+        <p class="phrase">Un lugar donde puedes liberarte de tus más profundos secretos</p>
+        <div class="button">
+          <button class="btn" id="login-button">Login</button>
           <button class="btn" id="sign-up-button">Register</button>
           <div></div>
-        </main>
+      </main>
     </div>
-   
+
   </div>
 
 
-  <div   id="login-screen">
+  <div id="login-screen">
     <main class="box">
       <h1>Login<h1>
           <form>
             <div class="inputBox">
-              <input type="text"  required="" id="username">
+              <input type="text" required="" id="username">
               <label for="username">Username</label>
             </div>
             <div class="inputBox">
-             <input type="password"  required="" id="password">
-             <label for="password-sign-in">Password</label>
+              <input type="password" required="" id="password">
+              <label for="password-sign-in">Password</label>
             </div>
             <div class="button">
-            <button class="btn1" id="btn-login">Start</button>
+              <button class="btn1" id="btn-login">Start</button>
             </div>
             <h2 class="linea"> New?<a href="">Sign up</a></h2>
           </form>
     </main>
-  </div> 
+  </div>
 
   <div id="sign-up-screen">
     <main class="box">
       <h1>Register</h1>
-         <div class="inputBox" id="sign-up-screen">
-          <label for="name">Username</label>
-          <input type="text" id="username2">
-        </div>
-        <div class="inputBox">
-          <label for="password-sign-up"></label>Crea una contraseña</label>
-          <input type="password" id="password2">
-        </div class="button">
-        <button type="btn" id="btn-sign-up">Register</button>
-         </main>
+      <div class="inputBox" id="sign-up-screen">
+        <label for="name">Username</label>
+        <input type="text" id="username2">
+      </div>
+      <div class="inputBox">
+        <label for="password-sign-up"></label>Crea una contraseña</label>
+        <input type="password" id="password2">
+      </div class="button">
+      <button type="btn" id="btn-sign-up">Register</button>
+    </main>
   </div>
 
-  <div  id="message-screen">
-      <main class="box">
-          <h1>Free Yourself</h1>
-          <h2>Confiesa tu secreto, libérate</h2>
-          <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
-         <div class="inputBox">
-          <input type="text" id="secret-text" placeholder="No te ahogues, desahogate">
-          
-          </div>
-          <div class="inputBox">
-            <input type="number"  id="offset" placeholder="Clave">      
-          </div class="buttonMessage">
-          <button  type="btn2" id="encode-btn">Cifrar</button>
-          <button type= "btn2" id="decode-btn">Descifrar </button>
-          <button type="btn2" id="save-btn">Save</button>
-         <div id="encoded-text-result"></div>
-      
-      </main>
-      
-</div>
+  <div id="message-screen">
+    <main class="box">
+      <h1>Free Yourself</h1>
+      <h2>Confiesa tu secreto, libérate</h2>
+      <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y
+        visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
+      <div class="inputBox">
+        <input type="text" id="secret-text" placeholder="No te ahogues, desahogate">
 
-  <footer >
-    <p1>Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las personas |© Copyright 2019 Almendra Souza</p1>
+      </div>
+      <div class="inputBox">
+        <input type="number" id="offset" placeholder="Clave">
+      </div class="buttonMessage">
+      <button type="btn2" id="encode-btn">Cifrar</button>
+      <button type="btn2" id="decode-btn">Descifrar </button>
+      <button type="btn2" id="save-btn">Save</button>
+      <div id="encoded-text-result"></div>
+
+    </main>
+
+  </div>
+
+  <footer>
+    <p1>Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las
+      personas |© Copyright 2019 Almendra Souza</p1>
   </footer>
- 
+
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
