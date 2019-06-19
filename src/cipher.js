@@ -1,46 +1,49 @@
 window.cipher = {
   encode: (word, offset) => {
-    let newNumberAscii;//
-        let newWord="";
-    for(let i=0;i<word.length;i++){
-    word[i];
-    const letter=word[i];
-    const newPositionRealLetterTwo=(((letter.charCodeAt())- 65)+ offset)%26;
+      let newNumberAscii;//
+      let newWord = "";
+      for (let i = 0; i < word.length; i++) {
+          word[i];
+          const letter = word[i];
+          const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) + offset) % 26;
+          
+          if(letter.charCodeAt()<65 || letter.charCodeAt()>90){
+              newNumberAscii=letter.charCodeAt();
+          }
+          else if (newPositionRealLetterTwo < 0) {
+              newNumberAscii = newPositionRealLetterTwo + 26 + 65;
+          }
+          else {
+              newNumberAscii = newPositionRealLetterTwo + 65;
+          }
+          const newLetter = String.fromCharCode(newNumberAscii);
+          newWord += newLetter;
+      }
+      return newWord;
 
-    if(newPositionRealLetterTwo<0){
-     newNumberAscii=newPositionRealLetterTwo+26+65;
-    }
-    /*else if () {
-      newNumberAscii=word.charCodeAt(i);
-    }*/
-    else {    
-    newNumberAscii=newPositionRealLetterTwo +65;
-    }
-    const newLetter= String.fromCharCode(newNumberAscii);
-    newWord+= newLetter;
-}    
-    return newWord;
-  
   },
 
 
 
 
-  decode: (word,offset) => {
-    let newNumberAscii;//
-    let newWord="";
-for(let i=0;i<word.length;i++){
-word[i];
-const letter=word[i];
-const newPositionRealLetterTwo=(((letter.charCodeAt())- 65)-offset)%26;
-if(newPositionRealLetterTwo<0){
- newNumberAscii=newPositionRealLetterTwo+26+65;
-}else{    
-newNumberAscii=newPositionRealLetterTwo +65;
-}
-const newLetter= String.fromCharCode(newNumberAscii);
-newWord+= newLetter;
-}    
-return newWord;
+  decode: (word, offset) => {
+      let newNumberAscii;//
+      let newWord = "";
+      for (let i = 0; i < word.length; i++) {
+          word[i];
+          const letter = word[i];
+          const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) - offset) % 26;
+          if(letter.charCodeAt()<65 || letter.charCodeAt()>90){
+              newNumberAscii=letter.charCodeAt();
+          }
+          else if (newPositionRealLetterTwo < 0) {
+              newNumberAscii = newPositionRealLetterTwo + 26 + 65;
+          } else {
+              newNumberAscii = newPositionRealLetterTwo + 65;
+          }
+          const newLetter = String.fromCharCode(newNumberAscii);
+          newWord += newLetter;
+      }
+      return newWord;
   }
 };

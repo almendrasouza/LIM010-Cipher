@@ -18,75 +18,82 @@
           </ul>
         </nav>
       </header>
-  <div id="first-screen">
-    <div class="body1">
-        <h1 class="title">Free Yourself</h1>
+  <div  id="first-screen">
+    <div >
+        <h1 class="title1">FREE</h1>
+        <h2 class="title2">yourself</h2>
         <main>
-          <h1>Un lugar donde puedes liberarte de tus más profundos secretos</h1>
-          <button type="button" id="login-button">LogIn</button>
-          <button type="button" id="sign-up-button">Register</button>
+          <p class="phrase">Un lugar donde puedes liberarte de tus más profundos secretos</p>
+          <div class="button">
+          <button  class="btn"  id="login-button">Login</button>
+          <button class="btn" id="sign-up-button">Register</button>
+          <div></div>
         </main>
     </div>
    
   </div>
 
 
-  <div id="login-screen">
+  <div   id="login-screen">
     <main class="box">
-      <h1>Login in Free Yourself<h1>
+      <h1>Login<h1>
           <form>
-            <div class="inputbox">
+            <div class="inputBox">
+              <input type="text"  required="" id="username">
               <label for="username">Username</label>
-              <input type="text" id="username">
             </div>
-            <div class="inputbox">
-              <label for="password-sign-in">Password</label>
-              <input type="password" id="password">
+            <div class="inputBox">
+             <input type="password"  required="" id="password">
+             <label for="password-sign-in">Password</label>
             </div>
-            <button type="button"  id="btn-login">Start</button>
+            <div class="button">
+            <button class="btn1" id="btn-login">Start</button>
+            </div>
             <h2 class="linea"> New?<a href="">Sign up</a></h2>
           </form>
     </main>
   </div> 
 
   <div id="sign-up-screen">
-    <main class="box1">
-      <h1>Register en Free Yourself</h1>
-         <div class="buzon" id="sign-up-screen">
+    <main class="box">
+      <h1>Register</h1>
+         <div class="inputBox" id="sign-up-screen">
           <label for="name">Username</label>
           <input type="text" id="username2">
         </div>
-        <div class="buzon">
+        <div class="inputBox">
           <label for="password-sign-up"></label>Crea una contraseña</label>
           <input type="password" id="password2">
-        </div>
-        <button type="button" id="btn-sign-up">Register</button>
+        </div class="button">
+        <button type="btn" id="btn-sign-up">Register</button>
          </main>
   </div>
 
-  <div id="message-screen">
-      <main class="box2">
-          <h1>FREE Yourself</h1>
+  <div  id="message-screen">
+      <main class="box">
+          <h1>Free Yourself</h1>
           <h2>Confiesa tu secreto, libérate</h2>
           <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
-         <div class="secretbox">
-          <input type="text" id="secret-text">
+         <div class="inputBox">
+          <input type="text" id="secret-text" placeholder="No te ahogues, desahogate">
+          
           </div>
-          <div class="secretbox">
+          <div class="inputBox">
             <input type="number"  id="offset" placeholder="Clave">      
-          </div>
-          <button  type="button" id="encode-btn">Cifrar</button>
-          <button type="button" id="decode-btn">Descifrar </button>
-          <button type="button" id="save-btn">Save</button>
+          </div class="buttonMessage">
+          <button  type="btn2" id="encode-btn">Cifrar</button>
+          <button type= "btn2" id="decode-btn">Descifrar </button>
+          <button type="btn2" id="save-btn">Save</button>
          <div id="encoded-text-result"></div>
       
       </main>
       
 </div>
-  <footer>
-    <p>Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las personas |© Copyright 2019 Almendra Souza</p>
+
+  <footer >
+    <p1>Free Yourself es una plataforma dedicado a promover el bienestar, la salud mental y la paz interior de las personas |© Copyright 2019 Almendra Souza</p1>
   </footer>
-  
+ 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
