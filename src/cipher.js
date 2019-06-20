@@ -29,10 +29,8 @@ window.cipher = {
           word[i];
           const letter = word[i];
           const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) - offset) % 26;
-          if(letter.charCodeAt()<65 || letter.charCodeAt()>90){
-              newNumberAscii=letter.charCodeAt();
-          }
-          else if (newPositionRealLetterTwo < 0) {
+         
+         if (newPositionRealLetterTwo < 0) {
               newNumberAscii = newPositionRealLetterTwo + 26 + 65;
           } else {
               newNumberAscii = newPositionRealLetterTwo + 65;

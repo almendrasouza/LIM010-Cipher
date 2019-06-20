@@ -57,13 +57,16 @@ const offsetValue= parseInt(offset.value);
 const textoCifrado= cipher.encode(secretValue,offsetValue);
 messagetextresultDiv.innerHTML= textoCifrado;
 document.getElementById("offset").value = '';
+document.getElementById("secret-text").value = '';
 
 })
 decodeBtn.addEventListener('click',()=>{
-  const  contenidoTextoCifrado=messagetextresultDiv.textContent;
+  const secretValue= secretText.value;
 const offsetValue=  parseInt(offset.value);
-const textoDescifrado=cipher.decode(contenidoTextoCifrado,offsetValue);
+const textoDescifrado=cipher.decode(secretValue,offsetValue);
 messagetextresultDiv.innerHTML=textoDescifrado;
+document.getElementById("offset").value = '';
+document.getElementById("secret-text").value = '';
 })
 
 
