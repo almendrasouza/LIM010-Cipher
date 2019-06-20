@@ -5,9 +5,14 @@ const loginScreen=document.getElementById("login-screen");
 const signUpScreen= document.getElementById("sign-up-screen");
 const messageScreen= document.getElementById("message-screen");
 
+
+
+
+
 loginScreen.style.display="none";
 signUpScreen.style.display="none";
 messageScreen.style.display="none";
+
 const buttonLogin= document.getElementById("login-button");
 buttonLogin.addEventListener('click',()=>{
 firstScreen.style.display= "none";
@@ -49,8 +54,9 @@ const decodeBtn= document.getElementById("decode-btn");
 const messagetextresultDiv= document.getElementById("encoded-text-result");
 const secretText= document.getElementById("secret-text");
 const offset= document.getElementById("offset");
-encodeBtn.addEventListener('click',()=>{
 
+
+encodeBtn.addEventListener('click',()=>{
 const secretValue= secretText.value;
 const offsetValue= parseInt(offset.value);
 
@@ -60,6 +66,7 @@ document.getElementById("offset").value = '';
 document.getElementById("secret-text").value = '';
 
 })
+
 decodeBtn.addEventListener('click',()=>{
   const secretValue= secretText.value;
 const offsetValue=  parseInt(offset.value);

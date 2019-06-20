@@ -1,33 +1,30 @@
 window.cipher = {
-  encode: (word, offset) => {
-      let newNumberAscii;//
-      let newWord = "";
-      for (let i = 0; i < word.length; i++) {
-          word[i];
-          const letter = word[i];
-          const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) + offset) % 26;
-          if (newPositionRealLetterTwo < 0) {
-              newNumberAscii = newPositionRealLetterTwo + 26 + 65;
-          }
-          else {
-              newNumberAscii = newPositionRealLetterTwo + 65;
-          }
-          const newLetter = String.fromCharCode(newNumberAscii);
-          newWord += newLetter;
-      }
-      return newWord;
-
+  encode: (offset, string) => {
+    let newNumberAscii;
+    let newstring = "";
+    for (let i = 0; i < string.length; i++) {
+			const letter = string[i];
+			const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) + offset) % 26;
+			if (newPositionRealLetterTwo < 0) {
+				newNumberAscii = newPositionRealLetterTwo + 26 + 65;
+			} else {
+				newNumberAscii = newPositionRealLetterTwo + 65;
+			}
+			const newLetter = String.fromCharCode(newNumberAscii);
+			newstring += newLetter;
+    }
+    return newstring;
   },
 
 
 
 
-  decode: (word, offset) => {
+  decode: (offset, string) => {
       let newNumberAscii;//
-      let newWord = "";
-      for (let i = 0; i < word.length; i++) {
-          word[i];
-          const letter = word[i];
+      let newstring = "";
+      for (let i = 0; i < string.length; i++) {
+          string[i];
+          const letter = string[i];
           const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) - offset) % 26;
          
          if (newPositionRealLetterTwo < 0) {
@@ -36,8 +33,8 @@ window.cipher = {
               newNumberAscii = newPositionRealLetterTwo + 65;
           }
           const newLetter = String.fromCharCode(newNumberAscii);
-          newWord += newLetter;
+          newstring += newLetter;
       }
-      return newWord;
+      return newstring;
   }
 };
