@@ -12,6 +12,9 @@
 <body>
   <header>
     <nav class="main">
+      <div class="logo">
+        <img src="logoriginal.png">
+      </div>
       <ul>
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Watch video</a></li>
@@ -29,16 +32,15 @@
         <div class="button">
           <button class="btn" id="login-button">Login</button>
           <button class="btn" id="sign-up-button">Register</button>
-          <div></div>
-      </main>
+        </div>
+              </main>
     </div>
-
   </div>
 
 
   <div id="login-screen">
     <main class="box">
-      <h1>Login<h1>
+      <h1>Login</h1>
           <form>
             <div class="inputBox">
               <input type="text" required="" id="username">
@@ -59,15 +61,15 @@
   <div id="sign-up-screen">
     <main class="box">
       <h1>Register</h1>
-      <div class="inputBox" id="sign-up-screen">
+      <div class="inputBox">
         <label for="name">Username</label>
         <input type="text" id="username2">
       </div>
       <div class="inputBox">
-        <label for="password-sign-up"></label>Crea una contraseña</label>
+        <label for="password-sign-up">Crea una contraseña</label>
         <input type="password" id="password2">
-      </div class="button">
-      <button type="btn" id="btn-sign-up">Register</button>
+      </div>
+      <button type="btn" id="btn-sign-up" >Register</button>
     </main>
   </div>
 
@@ -79,18 +81,15 @@
         visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
       <div class="inputBox">
         <input type="text" id="secret-text" placeholder="No te ahogues, desahogate">
-
       </div>
       <div class="inputBox">
         <input type="number" id="offset" placeholder="Clave">
-      </div class="buttonMessage">
+      </div>
       <button type="btn2" id="encode-btn">Cifrar</button>
       <button type="btn2" id="decode-btn">Descifrar </button>
       <button type="btn2" id="save-btn">Save</button>
       <div id="encoded-text-result"></div>
-
     </main>
-
   </div>
 
   <footer>

@@ -1,7 +1,7 @@
 const firstScreen= document.getElementById("first-screen");
 const loginScreen=document.getElementById("login-screen");
 
-const footerScreen= document.getElementById("footer-screen");
+
 const signUpScreen= document.getElementById("sign-up-screen");
 const messageScreen= document.getElementById("message-screen");
 
@@ -17,14 +17,14 @@ loginScreen.style.display="block";
 
 
 const buttonLogin2= document.getElementById("btn-login");
-const userName = document.getElementById("username");
+
 const userPassword = document.getElementById("password");
 let contador=0;
 buttonLogin2.addEventListener('click',()=>{
  contador++
-const userNameValue = userName.value;
+
 const userPasswordValue = userPassword.value;
-//console.log(userNameValue);
+// console.log(userNameValue);
 //console.log(userPasswordValue);
 document.getElementById("username").value = '';
 document.getElementById("password").value = ''
@@ -37,7 +37,7 @@ if(userPasswordValue=="LABORATORIA"){
 if (contador === 1 || contador === 2) {
   alert('Contraseña incorrecta, vuelve a intentarlo')
 
-} else if (contador === 3) {
+} else if (contador === 3) {// si no es igual a LABORATORIA entonces sale
   alert('Acceso denegado')
 }
 }
