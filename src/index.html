@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="icon" type="image/jpg" href="../img/logo.png" />
-
 </head>
 
 <body>
@@ -26,67 +24,66 @@
       <h2 class="title2">yourself</h2>
       <main>
         <p class="phrase">Un lugar donde puedes liberarte de tus más profundos secretos</p>
-        <div class="button">
-          <button class="btn" id="login-button">Login</button>
-          <button class="btn" id="sign-up-button">Register</button>
+        <div class="button1">
+          <button  class="btn" id="login-button">Login</button>
+          <button  class="btn" id="sign-up-button">Register</button>
         </div>
       </main>
     </div>
   </div>
 
-
   <div id="login-screen">
-    <main class="box">
+    <section class="box">
       <h1>Login</h1>
           <form>
             <div class="inputBox">
-              <input type="text" required="" id="username">
-              <label for="username">Username</label>
+                <label for="username">Username</label>
+              <input type="text" id="username">             
             </div>
-            <div class="inputBox">
-              <input type="password" required="" id="password">
-              <label for="password-sign-in">Password</label>
+            <div class="inputBox">              
+              <label for="password">Password</label>
+              <input type="password" id="password">
             </div>
-            <div class="button">
-              <button class="btn1" id="btn-login">Start</button>
+            <div class="button1">
+              <button  class="btn1" id="btn-login">Start</button>
             </div>
             <h2 class="linea"> New?<a href="">Sign up</a></h2>
           </form>
-    </main>
+    </section>
   </div>
 
   <div id="sign-up-screen">
-    <main class="box">
+    <section class="box">
       <h1>Register</h1>
       <div class="inputBox">
-        <label for="name">Username</label>
+        <label for="username2">Username</label>
         <input type="text" id="username2">
       </div>
       <div class="inputBox">
-        <label for="password-sign-up">Crea una contraseña</label>
+        <label for="password2">Crea una contraseña</label>
         <input type="password" id="password2">
       </div>
-      <button type="btn" id="btn-sign-up" >Register</button>
-    </main>
+      <button  id="btn-sign-up" >Register</button>
+    </section>
   </div>
 
-  <div id="message-screen">
-    <main class="box">
+  <div id="message-screen" class="message-screen">
+    <section class="box">
       <h1>Free Yourself</h1>
       <h2>Confiesa tu secreto, libérate</h2>
       <p class="p">¿Cómo usarlo? Escribe tu secreto, crea una clave,luego haz click en cifrar(podrás guardar y
         visualizar tu secreto cifrado). Si deseas descifrar tu secreto, ingresa tu clave que usaste y listo!</p>
       <div class="inputBox">
-        <input type="text" id="secret-text" placeholder="No te ahogues, desahogate">
+        <input type="text" id="secret-text" >
       </div>
       <div class="inputBox">
         <input type="number" id="offset" placeholder="Clave">
       </div>
-      <button type="btn2" id="encode-btn">Cifrar</button>
-      <button type="btn2" id="decode-btn">Descifrar </button>
-      <button type="btn2" id="save-btn">Save</button>
+      <button  id= "encode-btn" >Cifrar</button>
+      <button  id="decode-btn">Descifrar </button>
+      <button  id="save-btn">Save</button>
       <div class="colorResult" id="encoded-text-result"></div>
-    </main>
+    </section>
   </div>
 
   <footer>

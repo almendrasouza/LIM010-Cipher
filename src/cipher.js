@@ -1,7 +1,7 @@
 window.cipher = {
   encode: (offset, string) => {
     let newNumberAscii;
-    let newstring = "";
+    let newString = "";
     for (let i = 0; i < string.length; i++) {
 			const letter = string[i];
 			const newPositionRealLetterTwo = (((letter.charCodeAt()) - 65) + offset) % 26;
@@ -11,17 +11,13 @@ window.cipher = {
 				newNumberAscii = newPositionRealLetterTwo + 65;
 			}
 			const newLetter = String.fromCharCode(newNumberAscii);
-			newstring += newLetter;
+			newString += newLetter;
     }
-    return newstring;
+    return newString;
   },
-
-
-
-
   decode: (offset, string) => {
       let newNumberAscii;//
-      let newstring = "";
+      let newString = "";
       for (let i = 0; i < string.length; i++) {
           string[i];
           const letter = string[i];
@@ -33,8 +29,9 @@ window.cipher = {
               newNumberAscii = newPositionRealLetterTwo + 65;
           }
           const newLetter = String.fromCharCode(newNumberAscii);
-          newstring += newLetter;
+          newString += newLetter;
       }
-      return newstring;
+      return newString;
   }
 };
+

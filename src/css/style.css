@@ -36,8 +36,11 @@ background: linear-gradient(to right, #1565C0, #b92b27);
  font-family: Shadows Into Light;
  text-align: center;
 }
+.hide{
+  display:"none";
+}
 
-.button{
+.button1{
 position:absolute;
 top:80%;
 left: 50%;
