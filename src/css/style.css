@@ -37,7 +37,7 @@ background: linear-gradient(to right, #1565C0, #b92b27);
  text-align: center;
 }
 .hide{
-  display:"none";
+  display:none;
 }
 
 .button1{
