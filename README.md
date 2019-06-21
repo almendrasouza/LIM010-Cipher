@@ -1,8 +1,8 @@
 # Free Yourself
 
 Free yourself es una plataforma donde el usuario puede confesar sus más profundos secretos. El usuario tiene la opción de cifrar sus confesiones,las cuales se guardan después de haber sido cifradas, utilizando una clave que él mismo  proporcionó. Cada vez que el usuario ingresa a la plataforma será capaz de visualizar cada uno de sus confesiones cifradas. Y tendrá la opción de descifrarlas cuando desee.
-
-![Imagen final]()
+![Screenfinal1](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen1).
+  
 
 ### Investigación UX:
 **Explicar quiénes son los usuarios y los objetivos en relación con el producto**

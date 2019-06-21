@@ -75,16 +75,11 @@ border-radius: 5px;
 
 }
 
-.logo img{
-  float: left;
-  width: 150px;
-  height: auto;
-}
-
-  .p{
+.p{
     color:#fff;
   }
-  .colorResult{
+  
+.colorResult{
     color:#fff;
   }
   
@@ -132,7 +127,7 @@ background: transparent;
   top: 0;
   left:0;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   pointer-events:none;
   transition: .4s;
