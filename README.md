@@ -1,9 +1,9 @@
 # Free Yourself
 
 Free yourself es una plataforma donde el usuario puede confesar sus más profundos secretos. El usuario tiene la opción de cifrar sus confesiones,las cuales se guardan después de haber sido cifradas, utilizando una clave que él mismo  proporcionó. Cada vez que el usuario ingresa a la plataforma será capaz de visualizar cada uno de sus confesiones cifradas. Y tendrá la opción de descifrarlas cuando desee.
-![Screenfinal1](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen1).
-  
-
+![Screenfinal1](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen1.png).
+![Screenfinal2](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen2.png).  
+![Screenfinal3](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen3.png). 
 ### Investigación UX:
 **Explicar quiénes son los usuarios y los objetivos en relación con el producto**
 
@@ -19,8 +19,8 @@ Por ello se creó Free yourself, una plataforma donde el usuario puede crear una
 #### Prototipos y feedback
 
 **Primer prototipo en papel**
-
-![Prototipo en papel]()
+![diagrama de flujo](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/diagramadeflujo.jpg)
+![Prototipo en papel](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipoenpapel.jpg)
   
 **Resumen del feedback recibido indicando las mejoras a realizar**
  
