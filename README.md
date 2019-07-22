@@ -19,8 +19,7 @@ De este artículo fue una gran inspiración para crear una plataforma donde cual
 
 **3) INVESTIGAR LAS NECESIDADES DEL USUARIO, IDENTIFICAR UN PROBLEMA**
 
-**ENTREVISTA A USUARIOS**
-**----->HISTORIA 1**
+Según una investigación con más de 1000 personas los entrevistadores les pidieron que contaran sus secretos más ocultos, y llegaron a conocer más de 1100 confesiones. Luego de analizarlas concluyeron que las cosas que no contamos suelen estar mal vistas por la sociedad. Y que  estos secretos no contamos a nadie por miedo al que dirán.
 
 
 **4) ¿QUÉ HACER Y COMO EL PRODUCTO SOLUCIONA LOS PROBLEMAS/NECESIDADES DE DICHOS USUARIOS?**
@@ -31,11 +30,38 @@ Por ello se creó Free yourself, una plataforma donde el usuario puede crear una
 
 **5)¿Quiénes son los usuarios y los objetivos en relación con el producto?**
 
-El público objetivo de Free yourself son  hombres y mujeres de 18-40 años,que desean liberar sus cargas emocionales y desahogarse,escribiendo y expresando lo que sienten.
+El público objetivo de **Free yourself** son  hombres y mujeres de 18-40 años,que desean liberar sus cargas emocionales y desahogarse,escribiendo y expresando lo que sienten.
 
-Free Yourself busca ser una herramienta de liberación,que brinde al usuario una sensación de independencia después de haber escrito su confesión.
+**Free Yourself** busca ser una herramienta de liberación,que brinde al usuario una sensación de independencia después de haber escrito su confesión.
 
 El objetivo principal de Free Yourself es promover el bienestar, la salud mental y la paz interior de las personas.
+
+
+**6)Prototipos y feedback**
+
+**Primer prototipo en papel**
+![diagrama de flujo](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/diagramadeflujo.jpg)
+![Prototipo en papel](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipoenpapel.jpg)
+  
+**Resumen del feedback recibido indicando las mejoras a realizar**
+ 
+Que en el input donde la persona donde va ingresar su confesion aparezca el cursor para que el usuario sepa que puede escribir.
+
+Colocar una definición donde se explique que signifique cifrar y descifrar.
+
+El usuario no puede diferenciar qué acción va realizar primero: Ingresar su clave secreta o hacer click en el botón cifrar.
+
+**Sugerencia**:Colocar una descripción o instrucción de cómo se utiliza  la plataforma.
+
+Instrucción ¿Cómo usarlo?:
+- Escribe tu secreto
+- Crea una clave
+- Luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado)
+- Si deseas descifrar tu secreto. Ingresa la clave que usaste y listo)
+
+**Imagen del prototipo final en Balsamiq**
+
+![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipo-balsamiq.png).
 
 
 **INTRODUCCIÓN A LA PLATAFORMA**
@@ -49,28 +75,6 @@ Free yourself es una plataforma donde el usuario puede confesar sus más profund
 
 
 
-#### Prototipos y feedback
-
-**Primer prototipo en papel**
-![diagrama de flujo](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/diagramadeflujo.jpg)
-![Prototipo en papel](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipoenpapel.jpg)
-  
-**Resumen del feedback recibido indicando las mejoras a realizar**
- 
-Que en el input donde la persona donde va ingresar su confesion aparezca el cursor para que el usuario sepa que puede escribir.
-Colocar una definición donde se explique que signifique cifrar y descifrar.
-El usuario no puede diferenciar qué acción va realizar primero: Ingresar su clave secreta o hacer click en el botón cifrar.
-Sugerencia:Colocar una descripción o instrucción de cómo se utiliza  la plataforma.
-
-Instrucción ¿Cómo usarlo?:
-- Escribe tu secreto
-- Crea una clave
-- Luego haz click en cifrar(podrás guardar y visualizar tu secreto cifrado)
-- Si deseas descifrar tu secreto. Ingresa la clave que usaste y listo)
-
-**Imagen del prototipo final en Balsamiq**
-
-![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipo-balsamiq.png).
 
 
 
