@@ -1,19 +1,50 @@
 # Free Yourself
 
+**CATALOGO**
+
+**------->FASES DE INVESTIGACIÓN Y DEFINICIÓN<---------------**
+
+**1)INVESTIGAR SOBRE EL CIFRADO CÉSAR(ORIGEN)**
+
+https://www.genbeta.com/desarrollo/que-es-y-como-surge-la-criptografia-un-repaso-por-su-historia
+
+**2)¿QUÉ TIPO DE PLATAFORMA PARA CIFRAR SE PUEDE CREAR y QUE SEA ÚTIL PARA EL USUARIO?**
+
+https://www.elmundo.es/f5/comparte/2017/08/05/5984270bca47419e4f8b464a.html
+Según la ciencia, los seres humanos guardamos 13 secretos durante toda la vida.
+De este artículo fue una gran inspiración para crear una plataforma donde cualquier persona pueda confesar sus más intensos secretos.
+
+
+**3) INVESTIGAR LAS NECESIDADES DEL USUARIO, IDENTIFICAR UN PROBLEMA**
+
+**ENTREVISTA A USUARIOS**
+**----->HISTORIA 1**
+
+
+**4) ¿QUÉ HACER Y COMO EL PRODUCTO SOLUCIONA LOS PROBLEMAS/NECESIDADES DE DICHOS USUARIOS?**
+
+Todos las personas tenemos secretos, la mayoría están relacionados con situaciones que son mal vistas, ética o socialmente. Estos  secretos afectan a las personas emocional y mentalmente,lo que a su vez influye en su forma de actuar,y en general, en su bienestar.
+Por ello se creó Free yourself, una plataforma donde el usuario puede crear una cuenta personal, confesar sus secretos , cifrarlos por seguridad  y descifrarlos cuando desee.
+
+
+**5)¿Quiénes son los usuarios y los objetivos en relación con el producto?**
+
+El público objetivo de Free yourself son  hombres y mujeres de 18-40 años,que desean liberar sus cargas emocionales y desahogarse,escribiendo y expresando lo que sienten.
+
+Free Yourself busca ser una herramienta de liberación,que brinde al usuario una sensación de independencia después de haber escrito su confesión.
+
+El objetivo principal de Free Yourself es promover el bienestar, la salud mental y la paz interior de las personas.
+
+
+**INTRODUCCIÓN A LA PLATAFORMA**
+
 Free yourself es una plataforma donde el usuario puede confesar sus más profundos secretos. El usuario tiene la opción de cifrar sus confesiones,las cuales se guardan después de haber sido cifradas, utilizando una clave que él mismo  proporcionó. Cada vez que el usuario ingresa a la plataforma será capaz de visualizar cada uno de sus confesiones cifradas. Y tendrá la opción de descifrarlas cuando desee.
 ![Screenfinal1](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen1.png).
 ![Screenfinal2](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen2.png).  
 ![Screenfinal3](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/screen3.png). 
-### Investigación UX:
-**Explicar quiénes son los usuarios y los objetivos en relación con el producto**
 
-El público objetivo de Free yourself son  hombres y mujeres de 18-40 años,que desean liberar sus cargas emocionales y desahogarse,escribiendo y expresando lo que sienten en Free Yourself.
-Free Yourself busca ser una herramienta de liberación,que brinde al usuario una sensación de liberación después de haber escrito su confesión.
-El objetivo principal de Free Yourself es promover el bienestar, la salud mental y la paz interior de las personas.
 
-**Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios** 
-Todos las personas tenemos secretos, la mayoría están relacionados con situaciones que son mal vistas, ética o socialmente. Estos  secretos afectan a las personas emocional y mentalmente,lo que a su vez influye en su forma de actuar,y en general, en su bienestar.
-Por ello se creó Free yourself, una plataforma donde el usuario puede crear una cuenta personal, confesar sus secretos , cifrarlos por seguridad  y descifrarlos cuando desee.
+
 
 
 #### Prototipos y feedback
@@ -38,5 +69,9 @@ Instrucción ¿Cómo usarlo?:
 **Imagen del prototipo final en Balsamiq**
 
 ![Prototipo en Balsamiq](https://github.com/almendrasouza/LIM010-Cipher/blob/master/img/prototipo-balsamiq.png).
+
+
+
+
   
   
