@@ -11,6 +11,8 @@ https://www.genbeta.com/desarrollo/que-es-y-como-surge-la-criptografia-un-repaso
 **2)¿QUÉ TIPO DE PLATAFORMA PARA CIFRAR SE PUEDE CREAR y QUE SEA ÚTIL PARA EL USUARIO?**
 
 https://www.elmundo.es/f5/comparte/2017/08/05/5984270bca47419e4f8b464a.html
+
+
 Según la ciencia, los seres humanos guardamos 13 secretos durante toda la vida.
 De este artículo fue una gran inspiración para crear una plataforma donde cualquier persona pueda confesar sus más intensos secretos.
 
